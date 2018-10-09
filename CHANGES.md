@@ -39,7 +39,7 @@ API Changes:
 	* [`tools.eventsBuffer`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools.html#method-eventsBuffer) has been extracted into [`tools.buffers.event`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools_buffers_event.html)
 	* [`tools.throttle`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools.html#method-throttle) has been extracted into [`tools.buffers.throttle`](https://docs.ckeditor.com/ckeditor4/latest/api/CKEDITOR_tools_buffers_throttle.html)
 * [#1451](https://github.com/ckeditor/ckeditor-dev/issues/1451): Fixed: Context menu is incorrectly positioned when opened with `Shift-F10`.
-* [#2420](https://github.com/ckeditor/ckeditor-dev/issues/2420): Methods `CKEDITOR.editor.focus` and `CKEDITOR.editable.focus` can now be called with `preventScroll` option.
+* [#2420](https://github.com/ckeditor/ckeditor-dev/issues/2420): Methods `CKEDITOR.editor.focus`, `CKEDITOR.editable.focus`, `CKEDITOR.dom.element.focus` can now be called with `focusOptions` which hold `preventScroll` option.
 
 ## CKEditor 4.10.1
 
