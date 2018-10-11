@@ -30,6 +30,7 @@ Fixed Issues:
 * [#1113](https://github.com/ckeditor/ckeditor-dev/issues/1113): [Firefox] Fixed: Nested contenteditable elements path not updated on focus with [Div Editing Area](https://ckeditor.com/cke4/addon/divarea) plugin.
 * [#1682](https://github.com/ckeditor/ckeditor-dev/issues/1682) Fixed: Hovering [Balloon Toolbar](https://ckeditor.com/cke4/addon/balloontoolbar) panel changes its size causing flickering.
 * [#748](https://github.com/ckeditor/ckeditor-dev/issues/748): Fixed: scroll jumps when closing dialogs.
+* [#1429](https://github.com/ckeditor/ckeditor-dev/issues/1429): Fixed: Unfocused editor scrolls to top after opening dialog.
 
 API Changes:
 
